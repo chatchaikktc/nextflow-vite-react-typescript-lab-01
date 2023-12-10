@@ -2,7 +2,13 @@
 import React from 'react';
 import imageUrl from './../../assets/toy-box.webp';
 
-const ProductItemComponent: React.FC = () => {
+interface IProductItemComponentProps {
+    key: string;
+    product: IProduct;
+}
+
+const ProductItemComponent = ({ product }: IProductItemComponentProps) => {
+
     return (
         <div className="bg-white rounded-lg shadow-md p-4 border border-gray-300">
             <h2 className="text-xl font-bold mb-4">Product Title</h2>
