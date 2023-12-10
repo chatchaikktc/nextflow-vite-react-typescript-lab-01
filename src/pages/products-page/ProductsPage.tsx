@@ -1,8 +1,14 @@
 
-import React from 'react';
+
 import ProductItemComponent from './ProductItemComponent';
+import IProduct from './IProduct';
+import ProductJSON from "./../../data/products.json";
+
 
 export default function ProductsPage() {
+
+  const products: IProduct[] = ProductJSON.products;
+
   return (
     <div className="flex justify-center">
       <div className="pt-10 m-10 bg-slate-200 w-1024">
