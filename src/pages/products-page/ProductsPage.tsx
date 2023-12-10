@@ -16,13 +16,10 @@ export default function ProductsPage() {
         <h1 className="text-3xl mb-5 text-center">Products Page</h1>
 
         <div className="grid grid-cols-2 gap-4">
-          <ProductItemComponent />
-          <ProductItemComponent />
-          <ProductItemComponent />
-          <ProductItemComponent />
-          <ProductItemComponent />
+          {products.map((product) => (
+            <ProductItemComponent key={product.title} product={product} />
+          ))}
         </div>
-
       </div>
     </div>
   );
