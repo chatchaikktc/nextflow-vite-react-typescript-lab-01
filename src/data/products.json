@@ -6,63 +6,35 @@
       "title": "Product 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
       "price": 100,
-      "image": "assets/product1.jpg"
+      "image": "assets/product1.webp"
     },
     {
       "id": 2,
       "title": "Product 2",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
       "price": 200,
-      "image": "assets/product2.jpg"
+      "image": "assets/product2.webp"
     },
     {
       "id": 3,
       "title": "Product 3",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
       "price": 300,
-      "image": "assets/product3.jpg"
+      "image": "assets/product3.webp"
     },
     {
       "id": 4,
       "title": "Product 4",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
       "price": 400,
-      "image": "assets/product4.jpg"
+      "image": "assets/product4.webp"
     },
     {
       "id": 5,
       "title": "Product 5",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
       "price": 500,
-      "image": "assets/product5.jpg"
-    },
-    {
-      "id": 6,
-      "title": "Product 6",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
-      "price": 600,
-      "image": "assets/product6.jpg"
-    },
-    {
-      "id": 7,
-      "title": "Product 7",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
-      "price": 700,
-      "image": "assets/product7.jpg"
-    },
-    {
-      "id": 8,
-      "title": "Product 8",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
-      "price": 800,
-      "image": "assets/product8.jpg"
-    },
-    {
-      "id": 9,
-      "title": "Product 9",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae nunc eget nunc tincidunt aliquam. Sed nec nunc euismod, aliquet nisl id, lacinia nunc.",
-      "price": 900,
-      "image": "assets/product9.jpg"
+      "image": "assets/product5.webp"
     }
   ]
 }
