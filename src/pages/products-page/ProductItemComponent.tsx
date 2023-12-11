@@ -1,5 +1,4 @@
-import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import IProduct from './IProduct';
 
 interface IProductItemComponentProps {
@@ -8,11 +7,7 @@ interface IProductItemComponentProps {
 }
 
 const ProductItemComponent = ({ product }: IProductItemComponentProps) => {
-    const navigate = useNavigate();
 
-    const handleMoreDetails = () => {
-        navigate(`/products/${product.id}`);
-    };
 
     return (
         <div className="bg-white rounded-lg shadow-md p-4 border border-gray-300">
@@ -20,7 +15,6 @@ const ProductItemComponent = ({ product }: IProductItemComponentProps) => {
             <img src={product.image} alt="Product Image" className="w-fit mb-4" />
             <button
                 className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded"
-                onClick={handleMoreDetails}
             >
                 More Details
             </button>
