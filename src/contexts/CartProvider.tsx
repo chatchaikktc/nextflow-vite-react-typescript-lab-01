@@ -13,6 +13,7 @@ interface ICartContext {
 const CartContext = createContext<ICartContext>({ itemsInCart: [], addToCart: () => {} });
 
 
+
 export default function CartProvider({ children }: ICartProviderProps) {
 
     const [itemsInCart, setItemsInCart] = useState<IProduct[]>([]);
