@@ -2,13 +2,13 @@
 
 import ProductItemComponent from './ProductItemComponent';
 import IProduct from './IProduct';
-import ProductJSON from "./../../data/products.json";
+import { useProducts } from '../../contexts/ProductProvider';
 
 
 export default function ProductsPage() {
 
   
-  const products: IProduct[] = ProductJSON.products;
+  const products: IProduct[] = useProducts();
 
   return (
     <div className="flex justify-center">
