@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useProducts } from "../../contexts/ProductProvider";
 import IProduct from "../products-page/IProduct";
+import { useCart } from "../../contexts/CartProvider";
 
 
 
@@ -8,6 +9,8 @@ export default function ProductDetailPage() {
     const { id } = useParams<{ id: string }>();
     const products:IProduct[] = useProducts();
     const product = products.find( product => product.id === Number(id));
+
+    const { addToCart } = useCart();
 
     return (
         <div className="flex justify-center">
@@ -18,7 +21,9 @@ export default function ProductDetailPage() {
                         <p className="p-2">
                             ราคา {product?.price} บาท
                         </p>
-                        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded float-right">
+                        <button 
+                            onClick={() => addToCart(product!)}
+                            className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded float-right">
                             Add to Cart
                         </button>
                     </div>
