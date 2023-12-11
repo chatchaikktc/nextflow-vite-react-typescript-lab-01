@@ -1,4 +1,10 @@
+
+
 import React, { ReactNode, createContext } from 'react'
+import ProductJSON from "./../data/products.json";
+import IProduct from '../pages/products-page/IProduct';
+
+const ProductContext = createContext<IProduct[]>([]);
 
 interface ProductProviderProps {
     children: ReactNode;
@@ -7,7 +13,11 @@ interface ProductProviderProps {
 
 export default function ProductProvider({ children }: ProductProviderProps) {
 
+  const products: IProduct[] = ProductJSON.products;
+
   return (
-    <div>ProductProvider</div>
+    <ProductContext.Provider value={products}>
+        {children}
+    </ProductContext.Provider>
   )
 }
