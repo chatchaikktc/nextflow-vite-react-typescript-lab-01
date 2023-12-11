@@ -1,6 +1,6 @@
 
 
-import React, { ReactNode, createContext, useContext } from 'react'
+import  { ReactNode, createContext, useContext } from 'react'
 import ProductJSON from "./../data/products.json";
 import IProduct from '../pages/products-page/IProduct';
 

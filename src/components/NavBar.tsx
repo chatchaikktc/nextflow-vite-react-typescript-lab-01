@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import CartCounter from './CartCounter'
 import { Link } from 'react-router-dom'
 

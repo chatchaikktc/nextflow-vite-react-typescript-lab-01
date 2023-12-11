@@ -1,5 +1,5 @@
 
-import React from 'react'
+
 import { useCart } from '../contexts/CartProvider'
 
 export default function CartCounter() {
