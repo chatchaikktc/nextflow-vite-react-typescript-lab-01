@@ -19,8 +19,7 @@ export default function CartProvider({ children }: ICartProviderProps) {
     const [itemsInCart, setItemsInCart] = useState<IProduct[]>([]);
 
     const addToCart = (product:IProduct) => {
-        itemsInCart.push(product)
-        setItemsInCart(itemsInCart);
+        setItemsInCart(existingCart => [...existingCart, product]);    
     }
 
   return (
