@@ -1,6 +1,6 @@
 
 
-import React, { ReactNode, createContext } from 'react'
+import React, { ReactNode, createContext, useContext } from 'react'
 import ProductJSON from "./../data/products.json";
 import IProduct from '../pages/products-page/IProduct';
 
@@ -21,3 +21,5 @@ export default function ProductProvider({ children }: ProductProviderProps) {
     </ProductContext.Provider>
   )
 }
+
+export const useProducts = () => useContext(ProductContext);
