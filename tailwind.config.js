@@ -9,6 +9,9 @@ export default {
       width: {
         '1024': '1024px',
       },
+      color:{
+        'redci': '#CF3339',
+      }
     },
   },
   plugins: [],
